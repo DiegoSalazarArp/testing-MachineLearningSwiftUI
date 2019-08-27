@@ -14,6 +14,10 @@
 		C70741322311FFED000207D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70741312311FFED000207D3 /* Assets.xcassets */; };
 		C70741352311FFED000207D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70741342311FFED000207D3 /* Preview Assets.xcassets */; };
 		C70741382311FFED000207D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70741362311FFED000207D3 /* LaunchScreen.storyboard */; };
+		C7A3F04B231588E500DB3AAC /* ImageDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A3F04A231588E500DB3AAC /* ImageDetectionViewModel.swift */; };
+		C7A3F04D231589D900DB3AAC /* ImageDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A3F04C231589D900DB3AAC /* ImageDetectionManager.swift */; };
+		C7A3F04F23158B3200DB3AAC /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C7A3F04E23158B3200DB3AAC /* Resnet50.mlmodel */; };
+		C7A3F05123158B7C00DB3AAC /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A3F05023158B7C00DB3AAC /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		C70741342311FFED000207D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C70741372311FFED000207D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C70741392311FFED000207D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A3F04A231588E500DB3AAC /* ImageDetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectionViewModel.swift; sourceTree = "<group>"; };
+		C7A3F04C231589D900DB3AAC /* ImageDetectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectionManager.swift; sourceTree = "<group>"; };
+		C7A3F04E23158B3200DB3AAC /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		C7A3F05023158B7C00DB3AAC /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +73,11 @@
 				C70741362311FFED000207D3 /* LaunchScreen.storyboard */,
 				C70741392311FFED000207D3 /* Info.plist */,
 				C707412C2311FFE9000207D3 /* testing_MachineLearningSwiftUI.xcdatamodeld */,
+				C7A3F04E23158B3200DB3AAC /* Resnet50.mlmodel */,
 				C70741332311FFED000207D3 /* Preview Content */,
+				C7A3F04A231588E500DB3AAC /* ImageDetectionViewModel.swift */,
+				C7A3F04C231589D900DB3AAC /* ImageDetectionManager.swift */,
+				C7A3F05023158B7C00DB3AAC /* UIImage+Extensions.swift */,
 			);
 			path = "testing-MachineLearningSwiftUI";
 			sourceTree = "<group>";
@@ -149,10 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A3F04F23158B3200DB3AAC /* Resnet50.mlmodel in Sources */,
 				C70741292311FFE9000207D3 /* AppDelegate.swift in Sources */,
+				C7A3F04D231589D900DB3AAC /* ImageDetectionManager.swift in Sources */,
+				C7A3F04B231588E500DB3AAC /* ImageDetectionViewModel.swift in Sources */,
 				C707412B2311FFE9000207D3 /* SceneDelegate.swift in Sources */,
 				C70741302311FFE9000207D3 /* ContentView.swift in Sources */,
 				C707412E2311FFE9000207D3 /* testing_MachineLearningSwiftUI.xcdatamodeld in Sources */,
+				C7A3F05123158B7C00DB3AAC /* UIImage+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
