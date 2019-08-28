@@ -1,5 +1,5 @@
 # testing-MachineLearningSwiftUI
-ML integration in SwiftUI
+Integración de ML en SwiftUI
 
 
 model: Resnet50
